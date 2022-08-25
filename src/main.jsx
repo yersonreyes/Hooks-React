@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { CounterApp } from "./01-useState/CounterApp";
+//import { CounterApp } from "./01-useState/CounterApp";
+import { CounterApp2 } from "./01-useState/CounterApp2";
 
-CounterApp;
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <CounterApp />
+    <CounterApp2 />
   </React.StrictMode>
 );
