@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { TodoApp } from "./08-useReducer/TodoApp";
+import { BrowserRouter } from "react-router-dom";
+import { MainApp } from "./09-useContext/MainApp";
+//import { TodoApp } from "./08-useReducer/TodoApp";
 //import { MemoHook } from "./06-memos/MemoHook";
 //import { Memorize } from "./06-memos/Memorize";
 // import { Layout } from "./05-useLayautEffect/Layout";
@@ -14,7 +16,9 @@ import { TodoApp } from "./08-useReducer/TodoApp";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <TodoApp />
-  </React.StrictMode>
+  <BrowserRouter>
+    <React.StrictMode>
+      <MainApp />
+    </React.StrictMode>
+  </BrowserRouter>
 );
